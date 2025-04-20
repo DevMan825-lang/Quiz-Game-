@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="main-container">
+        <div class="quizGame">
+            <div class="quizHeader">
+            <h3>Quiz Game</h3>
+        </div>
+        <div class="score">
+            <h3 id="score">SCORE: 0</h3>
+        </div>
+        </div>
+        <br>
+
+
+<div class="questionContainer">
+    <div id="question1">
+        <h2>1. What is the capital of France?</h2>
+        <br>
+        <input type="radio" value="A.Paris" name="answer1"><label>A. Paris</label>
+        <br>
+        <input type="radio" value="B.Tokyo" name="answer1"><label>B. Tokyo</label>
+        <br>
+        <input type="radio" value="C.Washington DC" name="answer1"><label>C. Washington DC</label>
+        <br>
+        <input type="radio" value="D.Madrid" name="answer1"><label>D. Madrid  </label>
+        <br><br>
+        <button onclick="one()">Check</button>
+    </div>
+        <br><br><br>
+
+    <div id="question2">
+        <h2>2. What is the full form of CSS?</h2>
+        <br>
+        <label>
+        <input type="radio" value="A.Cascading Style Sheet" name="answer2">A. Cascading Style Sheet</label>
+        <br>
+        <label>
+        <input type="radio" value="B.Cascading Styles Sheet" name="answer2">B. Cascading Style Sheets</label>
+        <br>
+        <label>
+        <input type="radio" value="C.Cascading Stylet Sheets" name="answer2">C. Cascading Stylet Sheets</label>
+        <br>
+        <label>
+        <input type="radio" value="D.Cascading Style Sheets" name="answer2">D. Cascading Style Sheets  </label>
+        <br><br>
+        <button onclick="two()">Check</button>
+    </div>
+    <br>
+
+
+    <div id="question3">
+        <h2>3. What is the full form of HTML?</h2>
+        <br>
+        <input type="radio" value="A.Hyper Texts Markup Language" name="answer3"><label>A. Hyper Texts Markup Language</label>
+        <br>
+        <input type="radio" value="B.Hyper Text Markup Language" name="answer3"><label>B. Hyper Text Markup Language</label>
+        <br>
+        <input type="radio" value="C.Hyper Text Mark Language" name="answer3"><label>C. Hyper Text Mark Language</label>
+        <br>
+        <input type="radio" value="D.Hyper Text Marks Languages" name="answer3"><label>D. Hyper Text Marks Languages </label>
+        <br><br>
+        <button onclick="three()">Check</button>
+    </div>
+    <br>
+
+    <div id="question4">
+        <h2>4. What is the full form of JS?</h2>
+        <br>
+        <input type="radio" value="A.JSON" name="answer4"><label>A. JSON</label>
+        <br>
+        <input type="radio" value="B.Java S" name="answer4"><label>B. Java S</label>
+        <br>
+        <input type="radio" value="C.JavaScript" name="answer4"><label>C. JavaScript</label>
+        <br>
+        <input type="radio" value="D.JSON String" name="answer4"><label>D. JSON String </label>
+        <br><br>
+        <button onclick="four()">Check</button>
+    </div>
+    <br>
+
+    <div id="question5">
+        <h2>5.Who developed WWW?</h2>
+        <br>
+        <input type="radio" value="A.Tim Berner Lee" name="answer5"><label>A. Tim Berner Lee</label>
+        <br>
+        <input type="radio" value="B.Mark Zuckerberg" name="answer5"><label>B. Mark Zuckerberg</label>
+        <br>
+        <input type="radio" value="C.Elon Musk" name="answer5"><label>C. Elon Musk</label>
+        <br>
+        <input type="radio" value="D.Sayta Nadela" name="answer5"><label>D. Sayta Nadela </label>
+        <br><br>
+        <button onclick="five()">Check</button>
+    </div>
+    <br>
+
+    <div id="question6">
+        <h2>6.How many types datatypes are there in JavaScript?</h2>
+        <br>
+        <input type="radio" value="A.3" name="answer6"><label>A. 3</label>
+        <br>
+        <input type="radio" value="B.1" name="answer6"><label>B. 1</label>
+        <br>
+        <input type="radio" value="C.0" name="answer6"><label>C. 0</label>
+        <br>
+        <input type="radio" value="D.2" name="answer6"><label>D. 2 </label>
+        <br><br>
+        <button onclick="six()">Check</button>
+    </div>
+    <br>
+
+    <div id="question7">
+        <h2>7. What is the "var" keyword referred in JavaScript?</h2>
+        <br>
+        <input type="radio" value="A.Var" name="answer7"><label>A. Var</label>
+        <br>
+        <input type="radio" value="B.DataType" name="answer7"><label>B. DataType</label>
+        <br>
+        <input type="radio" value="C.Variable" name="answer7"><label>C. Variable</label>
+        <br>
+        <input type="radio" value="D.Array" name="answer7"><label>D. Array </label>
+        <br><br>
+        <button onclick="seven()">Check</button>
+    </div>
+    <br>
+
+    <div id="question8">
+        <h2>8. Who maintain HTML?</h2>
+        <br>
+        <input type="radio" value="A.WHATWG" name="answer8"><label>A. WHATWG</label>
+        <br>
+        <input type="radio" value="B.WWW" name="answer8"><label>B. WWW</label>
+        <br>
+        <input type="radio" value="C..COM" name="answer8"><label>C. .COM</label>
+        <br>
+        <input type="radio" value="D.HyperText Protocol" name="answer8"><label>D. HyperText Protocol </label>
+        <br><br>
+        <button onclick="eight()">Check</button>
+    </div>
+    <br>
+
+    <div id="question9">
+        <h2>9. What is the world's first programming language?</h2>
+        <br>
+        <input type="radio" value="A.Analytical Engine" name="answer9"><label>A. Analytical Engine</label>
+        <br>
+        <input type="radio" value="B.Analytics of Engines" name="answer9"><label>B. Analytics of Engines</label>
+        <br>
+        <input type="radio" value="C.Analytical Engine Algorithm" name="answer9"><label>C. Analytical Engine Algorithm</label>
+        <br>
+        <input type="radio" value="D.None Above This" name="answer9"><label>D. None Above This </label>
+        <br><br>
+        <button onclick="ninth()">Check</button>
+    </div>
+    <br>
+    <div id="question10">
+        <h2>10. Which year JavaScript language developed?</h2>
+        <br>
+        <input type="radio" value="A.1990" name="answer10"><label>A. 1990</label>
+        <br>
+        <input type="radio" value="B.1995" name="answer10"><label>B. 1995</label>
+        <br>
+        <input type="radio" value="C.1994" name="answer10"><label>C. 1994</label>
+        <br>
+        <input type="radio" value="D.1999" name="answer10"><label>D. 1999 </label>
+        <br><br>
+        <button onclick="tenth()">Check</button>
+    </div>
+    <br>
+    <div id="last">
+        <h3 class="gameEnd">Congratulations...! You cleared the quiz successfully</h3>
+        <br><br>
+        <button onclick="clearBtn()" class="clearBtn">Restart Game</button>
+    </div>
+
+
+</div>
+</div>
+
+
+<audio id="clickSound" src="https://www.soundjay.com/buttons/sounds/button-29.mp3"></audio>
+<audio id="winSound" src="https://www.soundjay.com/human/sounds/applause-8.mp3"></audio>
+<script src="main.js"></script>
+</body>
+</html>
